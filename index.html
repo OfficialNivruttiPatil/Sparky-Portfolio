@@ -1401,11 +1401,11 @@
       </div>
       
       <!-- Applied target TextRoll logic via JS injection structure onto this node -->
-      <h1 class="hero-title reveal">
+      <h class="hero-title reveal">
         DESIGNS<br>
         THAT MAKE<br>
         PEOPLE <span class="accent">STOP.</span> ✦
-      </h1>
+      </h>
 
       <div class="hero-bottom reveal">
         <p class="hero-desc">
@@ -1566,7 +1566,7 @@
 
         <div class="service-row reveal" onclick="quickSelectNeed('I need an advertisement')">
           <div class="service-index">04</div>
-          <div class="service-title">🚀 Creative Advertisement Design</div>
+          <div class="service-title"> Creative Advertisement Design</div>
           <div class="service-desc">Direct-response ad banners, performance promo visual suites, and product announcement graphics.</div>
           <div class="service-arrow">→</div>
         </div>
@@ -2224,7 +2224,7 @@
 
       <div id="adminAuthArea">
         <div style="display: flex; gap: 0.8rem; max-width: 400px;">
-          <input type="password" id="adminPass" class="form-input" placeholder="Enter admin password (SPG1229)">
+          <input type="password" id="adminPass" class="form-input" placeholder="Enter admin password">
           <button class="btn-secondary" id="adminLoginBtn" style="padding: 0.8rem 1.4rem; background: var(--accent); color:#fff; border-color: var(--accent);">Unlock ↗</button>
         </div>
         <span id="adminError" style="color: var(--accent); font-size: 0.8rem; display: none; margin-top: 0.5rem;">Incorrect password.</span>
@@ -2869,7 +2869,7 @@
     adminClose.addEventListener('click', closeAdmin);
 
     adminLoginBtn.addEventListener('click', () => {
-      if (adminPass.value === 'SPG1229') {
+      if (adminPass.value === 'SPG29') {
         adminAuthArea.style.display = 'none';
         adminDataArea.style.display = 'block';
         adminError.style.display = 'none';
